@@ -17,6 +17,24 @@
         <!--slider-->
         <script src="js/agile/agile_carousel.alpha.js"></script>
         <link rel="stylesheet" href="js/agile/agile_carousel.css">
+        <script>
+            $(document).ready(function () {
+                $.getJSON("js/agile/agile_carousel_data.php", function(data) {
+                        $("#flavor_3").agile_carousel({
+                            carousel_data: data,
+                            carousel_outer_height: 220,
+                            carousel_height: 220,
+                            slide_height: 220,
+                            carousel_outer_width: 480,
+                            slide_width: 480,
+                            transition_time: 700,
+                            timer: 4000,
+                            continuous_scrolling: true,
+                            control_set_1: "content_buttons"
+                        });
+                    });
+                });
+        </script>
     </head>
     <body>
         <div id="header_container">
@@ -47,7 +65,7 @@
                 <div id="flavor_3">
 
                 </div>
-                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </section>
             <aside>
                 <div id="searchHeader">
@@ -218,21 +236,6 @@
                 </div>
             </aside>
         </div>
-        <script>
-            $.getJSON("js/agile/agile_carousel_data.php", function(data) {
-                        $("#flavor_3").agile_carousel({
-                            carousel_data: data,
-                            carousel_outer_height: 220,
-                            carousel_height: 220,
-                            slide_height: 220,
-                            carousel_outer_width: 480,
-                            slide_width: 480,
-                            transition_time: 700,
-                            timer: 4000,
-                            continuous_scrolling: true,
-                            control_set_1: "content_buttons"
-                        });
-                    });
-        </script>
+
     </body>
 </html>
