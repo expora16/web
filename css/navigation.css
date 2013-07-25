@@ -1,0 +1,42 @@
+#nav_container {
+    z-index: 2;
+    height: 40px;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+nav {
+    width: 940px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.menu_opened {
+    position: fixed;
+    top: -1px;
+}
+
+
+nav ul {
+    margin: 0px;
+    list-style: none;
+}
+
+nav li {
+    position: relative;
+    top: 10px;
+    display: inline;
+    margin-left: 5px;
+    padding: 0 33px 30px 34px;
+}
+
+nav a:link {
+    top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f00;
+}

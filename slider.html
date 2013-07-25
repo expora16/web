@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="js/agile/agile_carousel.css">
+        <script src="js/jquery/jquery-1.10.2.min.js"></script>
+        <script src="js/agile/agile_carousel.alpha.js"></script>
+    </head>
+    <body>
+        <div id="flavor_3">
+
+        </div>
+                    <script>
+                $.getJSON("js/agile/agile_carousel_data.php", function(data) {
+                    $("#flavor_3").agile_carousel({
+                        carousel_data: data,
+                        carousel_outer_height: 220,
+                        carousel_height: 220,
+                        slide_height: 220,
+                        carousel_outer_width: 480,
+                        slide_width: 480,
+                        transition_time: 700,
+                        timer: 4000,
+                        continuous_scrolling: true,
+                        control_set_1: "content_buttons"
+                    });
+                });
+            </script>
+    </body>
+</html>

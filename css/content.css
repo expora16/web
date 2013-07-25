@@ -1,0 +1,14 @@
+#content_wrapper {
+    margin-top: 10000px;
+    width: 940px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#content {
+    padding: 5px;
+    margin-top: 15px;
+    width: 650px; 
+    background-color: #ffd800;
+}
