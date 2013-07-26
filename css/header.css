@@ -1,11 +1,10 @@
 #header_container {
     height: 70px;
     border-top: 2px solid #f00;
-    border-bottom:2px solid #f00;
+    border-bottom: 2px solid #f00;
 }
 
 header {
-    width: 940px;
     height: 50px;
     margin: 0px auto;
     margin-top: 5px;
@@ -14,16 +13,28 @@ header {
 
 #logo {
     margin: 5px 0px;
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
-header ul {
-    list-style: none;
-    position: absolute;
-    right: 0px;
-    top: 0px;
+.relative {
+    position: relative;
 }
+
+
+header ul {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    list-style: none;
+}
+
+.nav-text {
+    top: 10px;
+}
+
+
+
 header li {
     display: inline;
     margin-left: 5px;
@@ -38,11 +49,12 @@ header a:hover {
     color: #f00;
 }
 
-.searchArea{
-	margin-top: 3px;
-	border: 2px solid #000;
-	padding: 2px;
-	background-color: #fff;
-	border-radius: 5px 5px 5px 5px;
-	height:20px;
+.search-area {
+    position: absolute;
+    right: -4px;
+    top: 15px;
+}
+
+.search-input {
+    width: 239px;
 }
