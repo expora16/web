@@ -1,5 +1,5 @@
 #nav_container {
-    z-index: 2;
+    z-index: 6000;
     height: 40px;
     width: 100%;
     color: rgba(255, 255, 255, 1);
