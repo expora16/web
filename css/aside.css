@@ -5,6 +5,7 @@ aside {
 }
 
 #searchHeader {
+    position: relative;
     height: 75px;
     width: 100%;
     background-color: #ffd800;
@@ -32,3 +33,19 @@ aside {
 #searchFormWrapper select:first-of-type {
     margin-top: 20px;
 }
+
+#search-form button {
+    margin: 15px 27.5px;
+    width: 80%;
+}
+
+#searchHeader p {
+    font-size: 31.5px;
+    line-height: 40px;
+    position: relative;
+    top: 15px;
+    font-family: 'Open Sans';
+}
+
+
+
