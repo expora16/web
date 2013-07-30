@@ -10,7 +10,11 @@
     margin-top: 15px;
     height: 370px;
     width: 100%;
+    
 }
+/*.latar_content {
+background:url(../image/strip.jpg); 
+}*/
 
 .item img {
     border-radius: 5px 5px 0px 0px;

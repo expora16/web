@@ -1,5 +1,19 @@
 .footer-area {
-background-color: #f8f7f7;
-height: 100px;
+background: #f8f7f7 url(../image/footer.png) top center no-repeat;
+height:  150px;
+margin-top: 50px;
+padding: 30px 0 30px 0;
+min-height: 220px;
+}
 
+.contoh_logo{
+   
+    height: 50px;
+    width: 50px;
+    
+}
+.batas {
+    border-left: rgba(255, 255, 255, 0.5);
+    padding-left: 5px;
+    margin-left: 5px; 
 }
