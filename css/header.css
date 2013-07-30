@@ -30,6 +30,7 @@ header ul {
 }
 
 .nav-text {
+    position: relative;
     top: 10px;
 }
 
@@ -48,13 +49,16 @@ header a:link {
 header a:hover {
     color: #f00;
 }
+header a:visited {
+    color: #000;
+    text-decoration: none;
+}
 
 .search-area {
-    position: absolute;
-    right: -4px;
+    position: relative;
     top: 15px;
 }
 
 .search-input {
-    width: 239px;
+    width: 240px;
 }
