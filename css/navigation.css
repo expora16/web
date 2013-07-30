@@ -40,3 +40,9 @@ nav a:link {
 nav a:hover {
     color: #f00;
 }
+
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}

@@ -7,10 +7,9 @@
 
 #content {
     position: relative;
-    padding: 5px;
     margin-top: 15px;
     height: 370px;
-    width: 600px;
+    width: 100%;
 }
 
 .item img {

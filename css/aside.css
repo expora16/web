@@ -1,7 +1,6 @@
 aside {
     width: 100%;
     margin-top: 15px;
-    padding: 5px;
 }
 
 #searchHeader {
@@ -15,7 +14,7 @@ aside {
 #searchFormWrapper {
     background-color: #C5C9B8;
     width: 100%;
-    min-height: 295px;
+    min-height: 286px;
 }
 
 #searchFormWrapper select {
