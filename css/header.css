@@ -1,0 +1,28 @@
+header{
+      width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-top: 2px solid #f00;
+    border-bottom: 2px solid #f00;
+    padding: 10px 0px 10px 0;
+    
+}
+
+header a:link {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+header a:visited {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+header a:hover {
+    color: #f00 !important;
+}
+
+
+/*.search-txt {
+width: 100% !important;
+}*/

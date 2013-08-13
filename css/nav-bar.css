@@ -1,0 +1,17 @@
+nav {
+    z-index: 6000;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+   margin-bottom: 20px !important; 
+}
+.navbar{
+     margin-bottom: 0px !important;
+}
+.navbar-inner{
+     background-image: none !important;
+     background-color: #181818 !important;
+}
+.navbar-inverse .navbar-inner {
+    border-color: #181818 !important;
+}
