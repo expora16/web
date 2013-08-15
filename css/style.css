@@ -1,0 +1,9 @@
+@font-face {
+ font-family:OpenSans;
+ src: url(../font/OpenSans.woff); /* EOT file for IE */
+}
+
+body
+{
+font-family: OpenSans !important;
+}
