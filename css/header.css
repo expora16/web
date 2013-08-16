@@ -21,7 +21,75 @@ header a:visited {
 header a:hover {
     color: #f00 !important;
 }
+/*-------------------*/
+.box_header {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo {
+width: 208px;
+height: auto;
+}
+.box_menu {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    width: 495px;
+    height: 30px;
+}
+.area_search_box {
+height: auto;
+position: absolute;
+top: -5px;
+right: 0;
+}
+@media (max-width: 979px)  {
+    .box_header {
+        width: 100%;
+        top: -6px;
+    }
+}
 
+@media (max-width: 979px)  {
+    .box_menu {
+        width: 223px;
+        top: 0;
+    }
+}
+@media (max-width: 979px)  {
+    .area_search_box {
+            top: 27px;
+    }
+}
+
+/*------------------------------------------*/
+@media (max-width: 605px)  {
+    .box_header {
+        width: 100%;
+        top: 0;
+    }
+}
+
+@media (max-width: 605px) {
+    .box_menu {
+        width: 223px;
+        top: 135px;
+        left: 0!important;
+    }
+}
+@media (max-width: 605px) {
+    .area_search_box {
+            top: 27px;
+                    left: 0!important;
+    }
+}
+@media (max-width: 605px)  {
+    .logo {
+        width: 100%;
+        
+    }
+}
 
 /*.search-txt {
 width: 100% !important;

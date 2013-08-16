@@ -1,9 +1,8 @@
-@font-face
-{
-font-family: OpenSans;
-src: url('../font/OpenSans.woff');
+@font-face {
+    font-family: OpenSans;
+    src: url('../font/OpenSans.woff');
 }
 
-body{
+body {
     font-family: OpenSans;
 }
