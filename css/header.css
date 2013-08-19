@@ -44,6 +44,14 @@ position: absolute;
 top: -5px;
 right: 0;
 }
+
+
+@media (max-width: 605px)  {
+    header {
+       position: relative;
+       z-index: 1000;
+    }
+}
 @media (max-width: 979px)  {
     .box_header {
         width: 100%;
@@ -64,6 +72,8 @@ right: 0;
 }
 
 /*------------------------------------------*/
+
+
 @media (max-width: 605px)  {
     .box_header {
         width: 100%;
@@ -73,23 +83,24 @@ right: 0;
 
 @media (max-width: 605px) {
     .box_menu {
-        width: 223px;
-        top: 135px;
+        width: 100%;
+        height: auto;
+        top: 23px;
         left: 0!important;
+        position: relative;
+        padding-bottom: 23px;
     }
 }
 @media (max-width: 605px) {
     .area_search_box {
-            top: 27px;
-                    left: 0!important;
+        top: 0;
     }
 }
-@media (max-width: 605px)  {
-    .logo {
-        width: 100%;
-        
+    @media (max-width: 605px) {
+        .logo {
+            width: 100%;
+        }
     }
-}
 
 /*.search-txt {
 width: 100% !important;
