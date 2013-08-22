@@ -1,0 +1,140 @@
+#search-wrapper {
+    position: relative;
+}
+#search-wrapper h3 {
+    color: #fff;
+    text-align: center;
+}
+
+#search-wrapper select {
+    width: 90% !important;
+}
+
+#searchForm {
+    margin-top: 24px;
+    margin-left: 10%;
+}
+
+#cari_tahun {
+    margin-bottom: 14px;
+}
+
+#searchForm .btn {
+    margin-left: 30%;
+}
+
+
+.search-box {
+    background-color: #f00;
+    width: 100%;
+    height: 295px;
+    border-radius: 8px 8px 8px 8px;
+    background-image: url(../image/search-line.png);
+    background-repeat: no-repeat;
+    background-position: 0px 50px;
+    float: right;
+    background-size: 100% 3px;
+}
+
+.search-icon-area {
+    z-index:-1;
+    background-color: #f00;
+    width: 20%;
+    height: 60px;
+    border-radius: 8px 0px 0px 8px;
+    background-image: url(../image/loop1.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 18px center;
+    position: absolute;
+    left:0px;
+}
+
+
+
+/***/
+@media (max-width: 979px) {
+    .search-box {
+        width: 100%;
+        height: 249px;
+        border-radius: 8px 8px 8px 8px;
+        background-repeat: no-repeat;
+        background-position: 0px 35px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 979px) {
+    .search-icon-area {
+        display: none;
+    }
+}
+
+@media (max-width: 979px) {
+    #search-wrapper h3 {
+        font-size: 20px;
+        margin: 4px 0;
+    }
+}
+
+@media (max-width: 979px) {
+    #search-wrapper select {
+        width: 90% !important;
+    }
+
+    #searchForm {
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #cari_tahun {
+        margin-bottom: 9px;
+    }
+}
+
+
+
+/*****************    max-width: 767px        ******************/
+@media (max-width: 767px) {
+    .search-box {
+    height: 295px;
+    background-image: url(../image/search-line.png);
+    background-repeat: no-repeat;
+    background-position: 0px 60px;
+    background-size: 100% 3px;
+    
+    }
+}
+
+@media (max-width: 767px) {
+    .search-icon-area {
+        width: 100px;
+        height: 50px;
+        border-radius: 8px 8px 0px 0px;
+        background-size: 25px 25px;
+    }
+}
+@media (max-width: 767px) {
+    #search-wrapper h3 {
+       font-size: 24.5px;
+        margin: 10px 0;
+    }
+}
+@media (max-width: 767px) {
+  #search-wrapper select {
+    width: 90% !important;
+}
+
+#searchForm {
+    margin-top: 24px;
+    margin-left: 10%;
+}
+
+#cari_tahun {
+    margin-bottom: 14px;
+}
+
+#searchForm .btn {
+    margin-left: 40%;
+}
+}
