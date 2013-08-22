@@ -1,81 +1,135 @@
-#search-area h3{
+
+#search-wrapper h3 {
     color: #fff;
-    text-align: center;  
-    position: relative;
+    text-align: center;
 }
 
-#search-area select:first-child {
-    margin: 18px 10px 8px 18px;
-}
-#search-area select {
-    margin: 8px 18px;
-    width: 205px;
-}
-#search-area a {
-    position: absolute;
-    bottom: 25px;
-    right: auto;
-    left:auto;
+#search-wrapper select {
+    width: 90% !important;
 }
 
-#search-box{
+#searchForm {
+    margin-top: 24px;
+    margin-left: 10%;
+}
+
+#cari_tahun {
+    margin-bottom: 14px;
+}
+
+#searchForm .btn {
+    margin-left: 30%;
+}
+
+
+.search-box {
     background-color: #f00;
     width: 80%;
     height: 295px;
-    border-radius: 0px 8px 8px 8px;  
-    background-image: url(../image/search-line.png); 
-    background-repeat:no-repeat;
+    border-radius: 0px 8px 8px 8px;
+    background-image: url(../image/search-line.png);
+    background-repeat: no-repeat;
     background-position: 0px 50px;
     float: right;
-    position: relative;
-    
 }
+
 .search-icon-area {
     background-color: #f00;
     width: 20%;
     height: 60px;
-    border-radius: 8px 0px 0px 8px;  
-    background-image: url(../image/loop1.png); 
-    background-repeat:no-repeat;
+    border-radius: 8px 0px 0px 8px;
+    background-image: url(../image/loop1.png);
+    background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: 18px center;
     float: left;
-
 }
+
 
 
 /***/
 @media (max-width: 979px) {
     .search-box {
-        width: 80%;
-        height: 226px;
-        background-position: 0px 40px;
+        width: 100%;
+        height: 249px;
+        border-radius: 8px 8px 8px 8px;
+        background-repeat: no-repeat;
+        background-position: 0px 35px;
+        margin-bottom: 25px;
     }
 }
-
 
 @media (max-width: 979px) {
     .search-icon-area {
-       width: 20%;
-       height: 50px;
-       background-size: 23px 23px;
-       background-position: center center;
-   }
-}
-/**/
-@media (max-width: 767px) {
-    .search-box {
-        width: 100%;
-        height: 226px;
-        background-position: 0px 55px;
-        background-size: 100% 20px;
+        display: none;
     }
 }
+
+@media (max-width: 979px) {
+    #search-wrapper h3 {
+        font-size: 20px;
+        margin: 4px 0;
+    }
+}
+
+@media (max-width: 979px) {
+    #search-wrapper select {
+        width: 90% !important;
+    }
+
+    #searchForm {
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #cari_tahun {
+        margin-bottom: 9px;
+    }
+}
+
+
+
+/*****************    max-width: 767px        ******************/
+@media (max-width: 767px) {
+    .search-box {
+    height: 295px;
+    background-image: url(../image/search-line.png);
+    background-repeat: no-repeat;
+    background-position: 0px 60px;
+    background-size: 100% 3px;
+    
+    }
+}
+
 @media (max-width: 767px) {
     .search-icon-area {
         width: 100px;
         height: 50px;
-        border-radius: 8px 8px 0px 0px;  
+        border-radius: 8px 8px 0px 0px;
         background-size: 25px 25px;
     }
+}
+@media (max-width: 767px) {
+    #search-wrapper h3 {
+       font-size: 24.5px;
+        margin: 10px 0;
+    }
+}
+@media (max-width: 767px) {
+  #search-wrapper select {
+    width: 90% !important;
+}
+
+#searchForm {
+    margin-top: 24px;
+    margin-left: 10%;
+}
+
+#cari_tahun {
+    margin-bottom: 14px;
+}
+
+#searchForm .btn {
+    margin-left: 40%;
+}
 }
