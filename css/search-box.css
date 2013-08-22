@@ -1,6 +1,7 @@
 #search-wrapper {
     position: relative;
 }
+
 #search-wrapper h3 {
     color: #fff;
     text-align: center;
@@ -29,15 +30,15 @@
     width: 100%;
     height: 295px;
     border-radius: 8px 8px 8px 8px;
-    background-image: url(../image/search-line.png);
+    background-image: url(../image/search-line.png), url(../image/loop1.png);
     background-repeat: no-repeat;
-    background-position: 0px 50px;
+    background-position: 0px 55px, 250px 13px;
     float: right;
-    background-size: 100% 3px;
+    background-size: 100% 3px, 33px 33px;
 }
 
 .search-icon-area {
-    z-index:-1;
+    z-index: -1;
     background-color: #f00;
     width: 20%;
     height: 60px;
@@ -47,19 +48,20 @@
     background-size: 30px 30px;
     background-position: 18px center;
     position: absolute;
-    left:0px;
+    left: 0px;
 }
 
 
 
-/***/
+/*****************    max-width: 977px        ******************/
 @media (max-width: 979px) {
     .search-box {
         width: 100%;
         height: 249px;
         border-radius: 8px 8px 8px 8px;
-        background-repeat: no-repeat;
-        background-position: 0px 35px;
+        background-image: url(../image/search-line.png);
+        background-position: 0px 40px;
+        background-size: 100% 3px;
         margin-bottom: 25px;
     }
 }
@@ -72,8 +74,8 @@
 
 @media (max-width: 979px) {
     #search-wrapper h3 {
-        font-size: 20px;
-        margin: 4px 0;
+        font-size: 18px;
+        margin: 3.5px 0;
     }
 }
 
@@ -97,12 +99,11 @@
 /*****************    max-width: 767px        ******************/
 @media (max-width: 767px) {
     .search-box {
-    height: 295px;
-    background-image: url(../image/search-line.png);
-    background-repeat: no-repeat;
-    background-position: 0px 60px;
-    background-size: 100% 3px;
-    
+        height: 295px;
+        background-image: url(../image/search-line.png), url(../image/loop1.png);;
+        background-repeat: no-repeat;
+        background-position: 0px 60px, 90% 15px;
+        background-size: 100% 3px, 33px 33px;
     }
 }
 
@@ -114,27 +115,29 @@
         background-size: 25px 25px;
     }
 }
+
 @media (max-width: 767px) {
     #search-wrapper h3 {
-       font-size: 24.5px;
+        font-size: 24.5px;
         margin: 10px 0;
     }
 }
+
 @media (max-width: 767px) {
-  #search-wrapper select {
-    width: 90% !important;
-}
+    #search-wrapper select {
+        width: 90% !important;
+    }
 
-#searchForm {
-    margin-top: 24px;
-    margin-left: 10%;
-}
+    #searchForm {
+        margin-top: 24px;
+        margin-left: 10%;
+    }
 
-#cari_tahun {
-    margin-bottom: 14px;
-}
+    #cari_tahun {
+        margin-bottom: 14px;
+    }
 
-#searchForm .btn {
-    margin-left: 40%;
-}
+    #searchForm .btn {
+        margin-left: 40%;
+    }
 }
