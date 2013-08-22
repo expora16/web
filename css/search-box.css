@@ -1,4 +1,6 @@
-
+#search-wrapper {
+    position: relative;
+}
 #search-wrapper h3 {
     color: #fff;
     text-align: center;
@@ -24,16 +26,18 @@
 
 .search-box {
     background-color: #f00;
-    width: 80%;
+    width: 100%;
     height: 295px;
-    border-radius: 0px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
     background-image: url(../image/search-line.png);
     background-repeat: no-repeat;
     background-position: 0px 50px;
     float: right;
+    background-size: 100% 3px;
 }
 
 .search-icon-area {
+    z-index:-1;
     background-color: #f00;
     width: 20%;
     height: 60px;
@@ -42,7 +46,8 @@
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: 18px center;
-    float: left;
+    position: absolute;
+    left:0px;
 }
 
 
