@@ -3,13 +3,7 @@ background: #f8f7f7 url(../image/footer.png) top center no-repeat;
 height:  auto;
 padding: 20px 0 5px 0;
 color: #999999;
-}
-
-.contoh_logo{
-   
-    height: 50px;
-    width: 50px;
-    
+font-size: 10pt;
 }
 .batas {
     border-left: rgba(255, 255, 255, 0.5);
