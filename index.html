@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Bootstrap, from LayoutIt!</title>
+        <title>Indomobil</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -24,6 +24,7 @@
         <script type="text/javascript" src="js/scripts.js"></script>
         <script type="text/javascript" src="js/skin.js"></script>
         <!--  -----  STYLE  -----  -->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
         <link href="css/header.css" rel="stylesheet">
         <link href="css/nav-bar.css" rel="stylesheet">
         <link href="css/search-box.css" rel="stylesheet">
@@ -144,8 +145,7 @@
                 </div>
                 <!--                 search-box              -->
                 <div class="span4" id="search-wrapper">
-                    <div class="search-icon-area"></div>
-                    <div class="search-box"><h3>Search</h3>
+                    <div class="search-box"><h3>Search <i class="icon-search search-icon"></i></h3>
                         <form id="searchForm">
                             <select id="cari_tahun" class="drop_tahun" name="tahun">
                                 <option value="all">-- Semua Tahun --</option>
@@ -187,7 +187,7 @@
                                 <option value="1900">1900 - 1925</option>
                             </select>
                             <select id="cari_tahun" class="drop_tahun" name="tahun">
-                                <option value="all">-- Semua Tahun --</option>
+                                <option value="all"> -- Semua Tahun --</option>
                                 <option value="2013">2013</option>
                                 <option value="2012">2012</option>
                                 <option value="2011">2011</option>
@@ -303,7 +303,7 @@
                                 <option value="1926">1926 - 1950</option>
                                 <option value="1900">1900 - 1925</option>
                             </select>
-                            <button class="btn btn-inverse small-mini" type="button">Search</button>
+                            <button class="btn" type="button">Search</button>
                         </form>
                     </div>
                     <!--<img src="image/search-box.png">-->
@@ -312,8 +312,9 @@
             <!---->
             <div class="row-fluid">
                 <div class="span12">
+
                     <div class="page-header">
-                        <h2>Example page header <small>Subtext for header</small></h2>
+                        <h2> <i class="icon-caret-right icon-large"></i>  Example page header <small>Subtext for header</small></h2>
                     </div>
                     <ul class="thumbnails">
                         <li class="span4">
@@ -321,7 +322,7 @@
                                 <img alt="300x200" src="image\inova-pin.png">
                                 <div class="thm_merk"><h3>Avanza</h3></div>
                                 <div class="thm_harga">Rp. 208.450.000,00</div>
-                                <div class="skin"><a href="#" class="btn-red"><i class="icon-search icon-white"></i>  </a></div>
+                                <div class="skin"><a href="#" class="btn-red"><i class="icon-search "></i>  </a></div>
                             </div>
                         </li>
                         <li class="span4">
@@ -349,51 +350,48 @@
         <footer>
             <div class="container">
                 <div class="row-fluid">
-                    <div class="span12">
-                        <div class="span1">
-                            <img alt="140x140" src="image/logo1.png" class="contoh_logo" />
-                        </div>
-                        <div class="span4">
-                            <address> <strong>IndoMobil</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890</address>
-                        </div>
+                    <div class="span1">
+                        <img alt="140x140" src="image/logo1.png" class="footer-logo" />
                     </div>
+                    <div class="span3">
+                        <address> <h4>IndoMobil</h4><hr> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890</address>
+                    </div>
+                    <div class="span4 offset4">
+                        <h4>Contact Us</h4><hr>
+                        <ul>
+                            <li>
+                                <a href="#1"><i class="icon-facebook-sign"></i>   Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#2"> <i class="icon-twitter-sign"></i>   Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#3"><i class="icon-google-plus-sign"></i>   Google +</a>
+                            </li>
+                            <li>
+                                <a href="#4"> <i class="icon-linkedin-sign"></i>   Linked Id</a>
+                            </li>
+                        </ul>
+                        <a href="#myModal" role="button" data-toggle="modal" class="btn-gray"><i class="icon-envelope"></i> Message </a>
+                    </div>
+
                 </div>
             </div>
         </footer>
-        <!--  -----  ++++++++  -----  -->
-                    <!--<script type="text/javascript">
-                                                width = ((parseFloat($(".search-box").css("width")))/5);
-                                                $(".search-icon-area").width(width);
-                                                searchIconShow = false;
-                                                var animateSearch = function () {
-                                                  // create a deferred object
-                                                  var r = $.Deferred();
-                                                  if (!searchIconShow) {
-                                                      $(".search-icon-area").animate({
-                                                        left:"-="+width
-                                                    });
-                                                      searchIconShow = true;
-                                                  } else {
-                                                      $(".search-icon-area").animate({
-                                                        left:"+="+width
-                                                    });
-                                                      searchIconShow = false;
-                                                  }
-                                                  setTimeout(function () {
-                                                    r.resolve();
-                                                }, 2500);
-                                                  return r;
-                                                };
-                                                $(".search-box").hover(
-                                                    function(){
-                                                        animateSearch().done($(".search-icon-area").css("z-index","1000"));
-                                                        $(this).css("border-radius","0px 8px 8px 8px");
-                                                    },
-                                                    function(){
-                                                        animateSearch().done($(".search-icon-area").css("z-index","-1"));
-                                                        $(this).css("border-radius","8px");
-                                                    });
-                                            </script>
-                                             -->
+        <!-- Modal -->
+        <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">Modal header</h3>
+            </div>
+            <div class="modal-body">
+                <p>One fine body…</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                <button class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+
     </body>
 </html>

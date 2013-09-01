@@ -5,6 +5,10 @@
 #search-wrapper h3 {
     color: #fff;
     text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    background-color: #E62129;
+    border-radius: 4px 4px 0 0;
 }
 
 #search-wrapper select {
@@ -12,12 +16,12 @@
 }
 
 #searchForm {
-    margin-top: 24px;
+    margin-top: 18px;
     margin-left: 10%;
 }
 
 #cari_tahun {
-    margin-bottom: 14px;
+    margin-bottom: 13px;
 }
 
 #searchForm .btn {
@@ -26,30 +30,15 @@
 
 
 .search-box {
-    background-color: #f00;
+    background-color:#2F2F2C ;
     width: 100%;
     height: 295px;
-    border-radius: 4px 4px 4px 4px;
-    background-image: url(../image/search-line.png), url(../image/loop1.png);
-    background-repeat: no-repeat;
-    background-position: 0px 55px, 250px 13px;
-    float: right;
-    background-size: 100% 3px, 33px 33px;
+    border-radius: 4px; 
+}
+.search-icon{
+    margin-left: 40%;
 }
 
-.search-icon-area {
-    z-index: -1;
-    background-color: #f00;
-    width: 20%;
-    height: 60px;
-    border-radius: 8px 0px 0px 8px;
-    background-image: url(../image/loop1.png);
-    background-repeat: no-repeat;
-    background-size: 30px 30px;
-    background-position: 18px center;
-    position: absolute;
-    left: 0px;
-}
 
 
 

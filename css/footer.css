@@ -1,12 +1,70 @@
-footer{
-background: #f8f7f7 url(../image/footer.png) top center no-repeat;
-height:  auto;
-padding: 20px 0 5px 0;
-color: #999999;
-font-size: 10pt;
+footer {
+    background: #f8f7f7 url(../image/footer.png) top center no-repeat;
+    height: auto;
+    padding: 20px 0 30px 0;
+    color: #999999;
+    font-size: 10pt;
 }
-.batas {
-    border-left: rgba(255, 255, 255, 0.5);
-    padding-left: 5px;
-    margin-left: 5px; 
+
+.footer-logo {
+    margin: 10px 0;
+}
+
+
+footer hr {
+    margin: 5px 0;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #FFF;
+}
+
+
+
+
+footer  i {
+    margin: 0 10px 0 20px;
+}
+
+footer  .btn-gray i {
+    margin: 0 8px 0 0 ;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    font-size: 12pt;
+}
+
+footer li a {
+    color: #999999;
+}
+/*---------------------------*/
+footer li a[href*="#1"]:hover {
+    color: #4862A3;
+    text-decoration: none;
+}
+
+footer li a[href*="#2"]:hover {
+    color: #00CCFC;
+    text-decoration: none;
+}
+
+footer li a[href*="#3"]:hover {
+    color: #D24332;
+    text-decoration: none;
+}
+
+footer li a[href*="#4"]:hover {
+    color: #007BB6;
+    text-decoration: none;
+}
+
+
+/*-------------------------------------*/
+footer .btn-gray{
+    position: absolute;
+    right: 0px;
+    top: 55%;
+}
+footer .span4{
+    position: relative;
 }

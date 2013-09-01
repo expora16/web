@@ -1,8 +1,10 @@
-
+.icon-caret-right{
+    color: #ff0000;
+}
 .icon-search {
     margin-top: 3px;
 }
-
+/*            btn-red         */
 .btn-red {
     min-width: 45px;
     display: inline-block;
@@ -10,7 +12,7 @@
     margin-bottom: 0;
     font-size: 14px;
     line-height: 20px;
-    color: #333;
+    color: #fff;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -18,9 +20,45 @@
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
+    font-size: 117%;
 }
 
 .btn-red:hover {
     background-color: #fff;
     color: #ff0000;
+    text-decoration: none;
+}
+.btn-red:active {
+    background-color:#ff0000;
+    color: #fff;
+    text-decoration: none;
+}
+/*            btn-gray        */
+.btn-gray {
+    min-width: 45px;
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #999999;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 117%;
+}
+
+.btn-gray:hover {
+    background-color: #2F2F2C;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-gray:active {
+    background-color:#999999;
+    color: #fff;
+    text-decoration: none;
 }

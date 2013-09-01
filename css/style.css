@@ -17,4 +17,9 @@ body {
         padding-left: 20px !important;
     }
 }
-
+.page-header{
+   border-bottom: 1px solid #f00; 
+}
+.pagination a{
+    color: #f00;
+}
