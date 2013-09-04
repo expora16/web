@@ -62,3 +62,33 @@
     color: #fff;
     text-decoration: none;
 }
+
+/*            btn-white        */
+.btn-white {
+    min-width: 45px;
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2F2F2C;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 117%;
+}
+
+.btn-white:hover {
+    background-color: #2F2F2C;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-white:active {
+    background-color:#999999;
+    color: #fff;
+    text-decoration: none;
+}
